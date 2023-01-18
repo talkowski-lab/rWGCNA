@@ -3,7 +3,7 @@
 #  replacement from a larger user-supplied dataset, at a sample size of 0.66 of
 #  the larger data set.
 # 
-# This R script is called by submit_bsWGCNA_args.sh, which helps
+# This R script is called by submit_rWGCNA_args.sh, which helps
 #  set up the R environment, set a working directory, and pass
 #  on essential user-defined arguments (see Assign arguments to variables section).
 #  Additional hardwired parameters can be set by user (see Define hardwired parameters).

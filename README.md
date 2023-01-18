@@ -1,2 +1,2 @@
-# r-WGCA
-recursive WGCAN
+# rWGCNA
+resampled consensus WGCNA
