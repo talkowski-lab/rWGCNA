@@ -1,5 +1,5 @@
 # rWGCNA
-resampled consensus WGCNA
+Resampled consensus WGCNA
 
 ## Introduction
 ### Expectations and Applications:
