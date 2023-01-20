@@ -3,9 +3,9 @@ This simple, resampled consensus WGCNA method combines a resampling/bootstrappin
 
 **Sources:**
 
-   -WGCNA: [Langfelder & Horvath 2008](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-559)
+   - WGCNA: [Langfelder & Horvath 2008](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-559)
    
-   -Perslab bootstrapping function borrowed from the [Perslab wgcna-toolbox](https://github.com/perslab/wgcna-toolbo)
+   - Perslab bootstrapping function borrowed from the [Perslab wgcna-toolbox](https://github.com/perslab/wgcna-toolbo)
 
 ## Introduction
 ### Expectations and Applications:
@@ -52,13 +52,13 @@ Gene overlap, enrichment, and correlation was performed to determine the relatio
 ### Precision and Recall of genes in modules
 Using the individual WGCNA modules as baseline, precision and recall of genes in modules was calculated in the consensus WGCNA modules for best-match module pairs, as well as in the bootstrapped individual data sets, with the following definitions
 
-   -_TP:_ Gene from individual WGCNA module is present in best-match consensus (or bootstrap) module
+   - _TP:_ Gene from individual WGCNA module is present in best-match consensus (or bootstrap) module
 
-   -_FP:_ Gene from individual WGCNA module is present in a module other than the best-match consensus (or bootstrap) module, excluding grey module
+   - _FP:_ Gene from individual WGCNA module is present in a module other than the best-match consensus (or bootstrap) module, excluding grey module
 
-   -_TN:_ Gene from individual WGCNA grey module is present in grey module in consensus (or bootstrap)
+   - _TN:_ Gene from individual WGCNA grey module is present in grey module in consensus (or bootstrap)
 
-   -_FN:_ Gene from individual WGCNA non-grey module is in grey module in consensus (or bootstrap)
+   - _FN:_ Gene from individual WGCNA non-grey module is in grey module in consensus (or bootstrap)
 Precision and recall were visualized with histograms
 
 ### Module membership cutoff
