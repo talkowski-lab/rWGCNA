@@ -1,7 +1,10 @@
 # rWGCNA
 This simple, resampled consensus WGCNA method combines a resampling/bootstrapping function with WGCNA to produce robust modules.
-Primary sources:
+
+**Sources:
+
    -WGCNA: [Langfelder & Horvath 2008](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-559)
+   
    -Perslab bootstrapping function borrowed from the [Perslab wgcna-toolbox](https://github.com/perslab/wgcna-toolbo)
 
 ## Introduction
