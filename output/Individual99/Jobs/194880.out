@@ -1,0 +1,209 @@
+Sender: LSF System <lsfadmin@cn062>
+Subject: Job 194880: <Rscript --vanilla --verbose WGCNA_args_individual_blockwise.R /data/talkowski/hwick/projects/tutorials/WGCNA/bsWGCNA_PWS_interactive_server/PWS_full_bs_Block17k_individual PWS_full /data/talkowski/hwick/projects/XDP/bsWGCNA/data/PWS_counts_combat_norm_log2.txt Block17k_individual 17000> Done
+
+Job <Rscript --vanilla --verbose WGCNA_args_individual_blockwise.R /data/talkowski/hwick/projects/tutorials/WGCNA/bsWGCNA_PWS_interactive_server/PWS_full_bs_Block17k_individual PWS_full /data/talkowski/hwick/projects/XDP/bsWGCNA/data/PWS_counts_combat_norm_log2.txt Block17k_individual 17000> was submitted from host <eris1n3> by user <hcw11> in cluster <cmucluster>.
+Job was executed on host(s) <4*cn062>, in queue <big-multi>, as user <hcw11> in cluster <cmucluster>.
+</PHShome/hcw11> was used as the home directory.
+</PHShome/hcw11/xdp/scripts> was used as the working directory.
+Started at Fri Aug 26 16:37:21 2022
+Results reported at Fri Aug 26 17:23:12 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+Rscript --vanilla --verbose WGCNA_args_individual_blockwise.R /data/talkowski/hwick/projects/tutorials/WGCNA/bsWGCNA_PWS_interactive_server/PWS_full_bs_Block17k_individual PWS_full /data/talkowski/hwick/projects/XDP/bsWGCNA/data/PWS_counts_combat_norm_log2.txt Block17k_individual 17000
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :   2896.69 sec.
+    Max Memory :      7016 MB
+    Max Swap   :      7847 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+[1] "2022-08-26 20:37:22 UTC"
+Allowing multi-threading with up to 28 threads.
+[1] "/data/talkowski/hwick/projects/tutorials/WGCNA/bsWGCNA_PWS_interactive_server/PWS_full_bs_Block17k_individual"
+[1] "proj_name:"
+[1] "PWS_full"
+[1] "inData:"
+[1] "/data/talkowski/hwick/projects/XDP/bsWGCNA/data/PWS_counts_combat_norm_log2.txt"
+[1] "test_info:"
+[1] "Block17k_individual"
+[1] "maxBlockSize:"
+[1] 17000
+[1] "Performing quality control..."
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1] TRUE
+pdf 
+  2 
+[1] "...quality control done, see Plots/SampleClustering_1.6.pdf"
+[1] "Retrieving trait data"
+[1] "DEL" "WT" 
+[1] 104  14
+[1] 117  14
+[1] "Trait data gathered for multiExpr; Saving data..."
+[1] "How much power do you wield?"
+[1] "2022-08-26 20:37:38 UTC"
+pickSoftThreshold: will use block size 2667.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 2667 of 16769
+   ..working on genes 2668 through 5334 of 16769
+   ..working on genes 5335 through 8001 of 16769
+   ..working on genes 8002 through 10668 of 16769
+   ..working on genes 10669 through 13335 of 16769
+   ..working on genes 13336 through 16002 of 16769
+   ..working on genes 16003 through 16769 of 16769
+   Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1      2   0.0542 -5.96          0.900 4470.00  4460.000 4810.0
+2      3   0.1890 -3.96          0.924 2510.00  2500.000 3010.0
+3      4   0.2540 -2.72          0.918 1470.00  1460.000 2020.0
+4      5   0.3180 -2.24          0.912  903.00   889.000 1430.0
+5      6   0.3970 -2.11          0.904  573.00   557.000 1060.0
+6      7   0.4760 -2.09          0.903  375.00   359.000  806.0
+7      8   0.5350 -2.11          0.905  253.00   236.000  632.0
+8      9   0.5840 -2.10          0.918  175.00   159.000  506.0
+9     10   0.6250 -2.08          0.932  124.00   109.000  413.0
+10    11   0.6560 -2.10          0.941   89.90    76.000  341.0
+11    12   0.6780 -2.14          0.950   66.30    53.600  286.0
+12    13   0.7070 -2.13          0.960   49.70    38.200  242.0
+13    14   0.7320 -2.13          0.969   37.80    27.600  207.0
+14    15   0.7500 -2.15          0.971   29.20    20.100  179.0
+15    16   0.7690 -2.16          0.979   22.80    14.800  155.0
+16    17   0.7810 -2.18          0.983   18.00    11.000  135.0
+17    18   0.7970 -2.16          0.986   14.40     8.230  119.0
+18    19   0.8080 -2.16          0.988   11.60     6.210  105.0
+19    20   0.8110 -2.17          0.985    9.43     4.710   93.1
+20    21   0.8170 -2.18          0.982    7.73     3.600   82.9
+21    22   0.8220 -2.17          0.981    6.38     2.760   74.2
+22    23   0.8190 -2.18          0.972    5.29     2.130   66.5
+23    24   0.8040 -2.22          0.955    4.42     1.650   59.9
+24    25   0.8120 -2.20          0.957    3.72     1.290   54.1
+25    26   0.8180 -2.18          0.958    3.14     1.010   48.9
+26    27   0.8250 -2.16          0.959    2.67     0.793   44.4
+27    28   0.8320 -2.15          0.960    2.28     0.626   40.4
+28    29   0.8370 -2.14          0.960    1.95     0.496   36.8
+29    30   0.8420 -2.12          0.960    1.68     0.395   33.6
+pdf 
+  2 
+[1] "power"
+[1] 19
+[1] "2022-08-26 20:40:52 UTC"
+[1] "Done. Calculating Adjacencies..."
+[1] "Beginning blockwise individual module creation"
+[1] "2022-08-26 20:40:52 UTC"
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will use 28 parallel threads.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file PWS_full_TOM-block.1.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+     ..removing 2 genes from module 1 because their KME is too low.
+     ..removing 1 genes from module 8 because their KME is too low.
+     ..removing 1 genes from module 9 because their KME is too low.
+  ..reassigning 41 genes from module 1 to modules with higher KME.
+  ..reassigning 64 genes from module 2 to modules with higher KME.
+  ..reassigning 51 genes from module 3 to modules with higher KME.
+  ..reassigning 39 genes from module 4 to modules with higher KME.
+  ..reassigning 46 genes from module 5 to modules with higher KME.
+  ..reassigning 36 genes from module 6 to modules with higher KME.
+  ..reassigning 12 genes from module 7 to modules with higher KME.
+  ..reassigning 14 genes from module 8 to modules with higher KME.
+  ..reassigning 13 genes from module 9 to modules with higher KME.
+  ..reassigning 19 genes from module 10 to modules with higher KME.
+  ..reassigning 14 genes from module 11 to modules with higher KME.
+  ..reassigning 18 genes from module 12 to modules with higher KME.
+  ..reassigning 6 genes from module 13 to modules with higher KME.
+  ..reassigning 9 genes from module 14 to modules with higher KME.
+  ..reassigning 15 genes from module 15 to modules with higher KME.
+  ..reassigning 7 genes from module 16 to modules with higher KME.
+  ..reassigning 12 genes from module 17 to modules with higher KME.
+  ..reassigning 11 genes from module 18 to modules with higher KME.
+  ..reassigning 4 genes from module 19 to modules with higher KME.
+  ..reassigning 15 genes from module 20 to modules with higher KME.
+  ..reassigning 4 genes from module 21 to modules with higher KME.
+  ..reassigning 8 genes from module 22 to modules with higher KME.
+  ..reassigning 16 genes from module 23 to modules with higher KME.
+  ..reassigning 4 genes from module 24 to modules with higher KME.
+  ..reassigning 8 genes from module 25 to modules with higher KME.
+  ..reassigning 8 genes from module 26 to modules with higher KME.
+  ..reassigning 6 genes from module 27 to modules with higher KME.
+  ..reassigning 5 genes from module 28 to modules with higher KME.
+  ..reassigning 7 genes from module 29 to modules with higher KME.
+  ..reassigning 4 genes from module 30 to modules with higher KME.
+  ..reassigning 4 genes from module 31 to modules with higher KME.
+  ..reassigning 7 genes from module 33 to modules with higher KME.
+  ..reassigning 4 genes from module 34 to modules with higher KME.
+  ..reassigning 5 genes from module 35 to modules with higher KME.
+  ..reassigning 9 genes from module 36 to modules with higher KME.
+  ..reassigning 3 genes from module 37 to modules with higher KME.
+  ..reassigning 5 genes from module 38 to modules with higher KME.
+  ..reassigning 2 genes from module 39 to modules with higher KME.
+  ..reassigning 3 genes from module 40 to modules with higher KME.
+  ..reassigning 1 genes from module 41 to modules with higher KME.
+  ..reassigning 1 genes from module 42 to modules with higher KME.
+  ..reassigning 1 genes from module 43 to modules with higher KME.
+  ..reassigning 3 genes from module 44 to modules with higher KME.
+  ..reassigning 2 genes from module 46 to modules with higher KME.
+  ..reassigning 1 genes from module 48 to modules with higher KME.
+  ..reassigning 2 genes from module 49 to modules with higher KME.
+  ..reassigning 1 genes from module 50 to modules with higher KME.
+  ..reassigning 3 genes from module 51 to modules with higher KME.
+  ..reassigning 2 genes from module 53 to modules with higher KME.
+  ..reassigning 1 genes from module 55 to modules with higher KME.
+  ..reassigning 1 genes from module 56 to modules with higher KME.
+  ..reassigning 1 genes from module 57 to modules with higher KME.
+  ..reassigning 2 genes from module 59 to modules with higher KME.
+  ..reassigning 1 genes from module 60 to modules with higher KME.
+  ..reassigning 1 genes from module 62 to modules with higher KME.
+  ..reassigning 1 genes from module 65 to modules with higher KME.
+  ..reassigning 1 genes from module 66 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.25
+       Calculating new MEs...
+[1] "2022-08-26 21:23:08 UTC"
+[1] "Blockwise modules done. Extracting modules...."
+pdf 
+  2 
+mergedColors
+        black          blue         brown          cyan     darkgreen 
+         1010          1418          1331           399            92 
+     darkgrey    darkorange       darkred darkturquoise         green 
+           71            57           107            77          1100 
+  greenyellow          grey        grey60     lightcyan    lightgreen 
+          656          2193           194           241           193 
+  lightyellow       magenta  midnightblue        orange          pink 
+          187           676           290            67           774 
+       purple           red     royalblue        salmon           tan 
+          669          1056           174           523           598 
+    turquoise         white        yellow 
+         1430            53          1133 
+[1] "There are 28 modules"
+[1] "2022-08-26 21:23:09 UTC"
+[1] "Modules extracted. See ConsensusDendrogram-auto.pdf. Saving final objects and environment..."
+[1] "Success! Analysis complete!"
+[1] "2022-08-26 21:23:11 UTC"
+
+
+PS:
+
+Read file </data/talkowski/hwick/projects/tutorials/WGCNA/bsWGCNA_PWS_interactive_server/PWS_full_bs_Block17k_individual/Jobs/194880.err> for stderr output of this job.
+
