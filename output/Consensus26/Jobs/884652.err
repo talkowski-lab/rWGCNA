@@ -1,0 +1,28 @@
+running
+  '/apps/source/R/R-4.0.2-withX11/lib64/R/bin/R --no-echo --no-restore --vanilla --file=bsWGCNA_args_blockwise.R --args /data/talkowski/hwick/projects/tutorials/WGCNA/bsWGCNA_PWS_interactive_server/PWS_26subset_bs100_Block17k_calcPower PWS_26subset 100 /data/talkowski/hwick/projects/tutorials/WGCNA/WGCNA_from_laptop/PWS_counts_combat_norm_log2_25samples_5050background.txt Block17k_calcPower 17000 F'
+
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+Loading required package: dynamicTreeCut
+Loading required package: fastcluster
+
+Attaching package: 'fastcluster'
+
+The following object is masked from 'package:stats':
+
+    hclust
+
+
+
+Attaching package: 'WGCNA'
+
+The following object is masked from 'package:stats':
+
+    cor
+
