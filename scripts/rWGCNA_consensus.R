@@ -322,9 +322,6 @@ if (defaultPower) {
   collectGarbage();
 }
 Sys.time()
-#print("Saving image")
-#save.image("post_softower.RData")
-print("Done. Calculating Adjacencies...")
 softPower = power
 
 ########################################
