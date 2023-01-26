@@ -24,7 +24,7 @@
 #   SoftPowerThresh_signed.pdf #soft power thresholds for all re-sampled datasets, if calculated
 #   ConsensusDendrogram.pdf #module dendrogram
 # Objects/Environment:
-#   multiExpr.RData # ojbect of re-sampled data sets
+#   multiExpr.RData # object of re-sampled data sets
 #   Consensus-dataInput.RData #multiple objects: multiExpr, nGenes, Traits, nSamples, setLabels, shortLabels, exprSize
 #   Consensus-NetworkConstruction.RData # multiple objects: consMEs, moduleLabels, moduleColors, consTree
 #   consMEsOnDatExpr.Rdata #module eigengenes calculated on datExpr
