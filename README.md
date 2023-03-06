@@ -44,7 +44,7 @@ WGCNA was run using three methods as follows:
 **Bootstrapped individual WGCNA:**
 1. Individual WGCNA was performed on the 100 65-sample data sets sampled from the original 99-sample data set. A power threshold of 18 was chosen to reflect the power threshold in the consensus analysis. The same block size, minimum module size, and module merge thresholds were used as the previous WGCNA analyses.
 
-### Module number, size. and background distribution
+### Module number, size, and background distribution
 Module number, size, and iPS background distribution between individual, consensus/bootstrapped datasets were assessed.
 Enrichment, overlap, and correlation of individual modules for consensus modules: defining reciprocal modules
 Gene overlap, enrichment, and correlation was performed to determine the relationship between modules determined in the individual analysis and modules determined in the consensus analysis. Using the consensus 99-sample WGCNA as baseline truth, reciprocal module pairs were determined between consensus 26-sample and individual 26-sample WGCNA as well as individual 99-sample WGCNA. Best-match reciprocal module pairs between the two analyses were defined as module pairs with the most significant nominal p value where each module mutually claims the other as the best match.
