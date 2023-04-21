@@ -2,7 +2,7 @@
 
 ###############################################
 # This script is used to submit WGCNA_individual.R to the server
-# by Heather Wick hwick@broad institute.org
+# by Heather Wick hwick@broadinstitute.org heather.c.wick@gmail.com
 # usage:
 # bash submit_rWGCNA_args_blockwise.sh project_name /path/to/Data_counts_combat_norm_log2.txt /path/to/output/base/dir/ /path/to/traitData.txt [block_size]
 # example:
