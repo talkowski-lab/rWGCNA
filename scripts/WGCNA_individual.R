@@ -1,9 +1,11 @@
 # This R script performs one-step individual blockwise WGCNA module
-# by Heather Wick hwick@broadinstitute.org heather.c.wick@gmail.com
+#
 # This R script is called by submit_rWGCNA_individual.sh, which helps
 #  set up the R environment, set a working directory, and pass
 #  on essential user-defined arguments (see Assign arguments to variables section).
 #  Additional hardwired parameters can be set by user (see Define hardwired parameters).
+#
+# by Heather Wick hwick@broadinstitute.org heather.c.wick@gmail.com
 #
 # Input:
 # 5 arguments:
