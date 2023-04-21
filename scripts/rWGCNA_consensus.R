@@ -8,6 +8,8 @@
 #  on essential user-defined arguments (see Assign arguments to variables section).
 #  Additional hardwired parameters can be set by user (see Define hardwired parameters).
 #
+# by Heather Wick hwick@broadinstitute.org heather.c.wick@gmail.com
+#
 # Input:
 # 7 arguments:
 #	1) path/to/working_directory
